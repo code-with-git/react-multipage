@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar/navbar.component";
+import Hero from "./components/Hero/hero.component";
+import Footer from "./components/Footer/footer.component";
 
 function App() {
   return (
     <div>
-      Hello World!
+      <Navbar />
+      <Hero />
+      <Footer />
     </div>
   );
 }
