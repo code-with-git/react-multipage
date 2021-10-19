@@ -4,7 +4,12 @@ import Footer from "./components/Footer/footer.component";
 
 function App() {
   return (
-    <div>
+    <div
+      className="bg-no-repeat bg-cover"
+      style={{
+        backgroundImage: `url("bg.jpg")`
+      }}
+    >
       <Navbar />
       <Hero />
       <Footer />
